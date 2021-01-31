@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+	background-position: center;
+	height: 100vh;
+}
+.App-header{
+	width: 100%;
+	margin: 0 auto;
+}
+.header-brand{
+	font-size: 24pt;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.all{
+	width: 60%;
+	margin: 0 auto;
+	padding: 25px;
+	text-align: center;
+    border: 4px double black;
+}
+
+.info{
+    border: 1px solid #bbb;
+    margin: 10px;
+}
+.user_image{
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+.user_image img{
+	width: 150px;
+	height: 150px;
+}
+
+.event_img{
+    border: 1px solid #bbb;
+	width: 150px;
+	height: 150px;
+}
+
+.event_Image{
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+.event_Image img{
+	width: 150px;
+	height: 150px;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex_end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex_evenly {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.flex_start {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.item {
+	margin-right: 5px;
+	align-self: center;
+}
+
+.item_Input {
+	margin-top: 5px;
+}
